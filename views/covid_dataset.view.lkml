@@ -3518,7 +3518,7 @@ view: covid_dataset {
     sql_longitude: ${TABLE}.longitude ;;
   }
 
-  measure: average_temperature_celsius {
+  dimension: average_temperature_celsius {
     type: number
     sql: ${TABLE}.average_temperature_celsius ;;
   }

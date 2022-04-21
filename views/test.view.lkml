@@ -1,4 +1,4 @@
-view: sql_runner_query {
+view: test {
   derived_table: {
     sql: SELECT * FROM `bigquery-public-data.cms_medicare.hospital_general_info`
       ;;

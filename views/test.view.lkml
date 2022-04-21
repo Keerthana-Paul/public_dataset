@@ -202,7 +202,7 @@ view: test {
 
   dimension: Full_Address{
     type: string
-    sql: ${address} || ',' || ${city} ;;
+    sql: ${address} || ', ' || ${city} ;;
 
   }
 

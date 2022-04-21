@@ -360,10 +360,7 @@ view: covid_dataset {
     sql: ${TABLE}.stringency_index ;;
   }
 
-  dimension: average_temperature_celsius {
-    type: number
-    sql: ${TABLE}.average_temperature_celsius ;;
-  }
+
 
   dimension: minimum_temperature_celsius {
     type: number
@@ -3519,6 +3516,11 @@ view: covid_dataset {
     type: location
     sql_latitude: ${TABLE}.latitude ;;
     sql_longitude: ${TABLE}.longitude ;;
+  }
+
+  measure: average_temperature_celsius {
+    type: number
+    sql: ${TABLE}.average_temperature_celsius ;;
   }
 
   set: detail {

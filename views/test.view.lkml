@@ -10,6 +10,7 @@ view: test {
   }
 
   dimension: provider_id {
+    primary_key: yes
     type: string
     sql: ${TABLE}.provider_id ;;
   }

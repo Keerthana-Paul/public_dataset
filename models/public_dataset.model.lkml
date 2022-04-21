@@ -11,3 +11,5 @@ datagroup: public_dataset_default_datagroup {
 persist_with: public_dataset_default_datagroup
 
 explore: test {}
+
+explore: covid_dataset {}

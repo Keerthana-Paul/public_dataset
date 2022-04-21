@@ -13,3 +13,5 @@ persist_with: public_dataset_default_datagroup
 explore: connection_reg_r3 {}
 
 explore: names_2020 {}
+
+explore: test {}

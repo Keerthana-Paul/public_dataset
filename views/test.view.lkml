@@ -200,6 +200,12 @@ view: test {
     sql: ${TABLE}.timely_and_effective_care_measures_footnote ;;
   }
 
+  dimension: Full_Address{
+    type: string
+    sql: ${address} || ',' || ${city} ;;
+
+  }
+
   set: detail {
     fields: [
       provider_id,

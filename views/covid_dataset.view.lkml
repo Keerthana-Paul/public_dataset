@@ -70,8 +70,8 @@ view: covid_dataset {
     sql: ${TABLE}.new_deceased ;;
   }
 
-  dimension: cumulative_confirmed {
-    type: number
+  measure: cumulative_confirmed {
+    type: sum
     sql: ${TABLE}.cumulative_confirmed ;;
   }
 
